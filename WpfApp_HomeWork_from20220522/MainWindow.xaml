@@ -1,0 +1,35 @@
+﻿<Window x:Class="WpfApp_HomeWork_from20220522.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_HomeWork_from20220522"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid ShowGridLines="True">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="90*"></ColumnDefinition>
+            
+            <ColumnDefinition Width="40*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <WrapPanel>
+            <Button x:Name="Navy_1" Background="Gray"  Content=" Navy " Foreground="Navy" FontSize="36" Margin="2" Click="Button_Click"/>
+            <Button x:Name="Blue_2" Background="Gray"  Content=" Blue " Foreground="Blue" FontSize="36" Margin="2" Click="Blue_2_Click"/>
+            <Button x:Name="Aqua_3" Background="Gray"  Content=" Aqua " Foreground="Aqua" FontSize="36" Margin="2" Click="Aqua_3_Click"/>
+            <Button x:Name="Teal_4" Background="Gray"  Content=" Teal " Foreground="Teal" FontSize="36" Margin="2" Click="Teal_4_Click"/>
+            <Button x:Name="Olive_5" Background="#FF9FC0BB"  Content=" Olive " Foreground="Olive" FontSize="36" Margin="2" Click="Olive_5_Click"/>
+            <Button x:Name="Green_6" Background="Gray"  Content=" Green " Foreground="Green" FontSize="36" Margin="2" Click="Green_6_Click"/>
+            <Button x:Name="Lime_7" Background="Gray"  Content=" Lime " Foreground="Lime" FontSize="36" Margin="2" Click="Lime_7_Click"/>
+            <Button x:Name="Yellow_8" Background="Gray"  Content=" Yellow " Foreground="Yellow" FontSize="36" Margin="2" Click="Yellow_8_Click"/>
+            <Button x:Name="Orange_9" Background="Gray"  Content=" Orange " Foreground="Orange" FontSize="36" Margin="2" Click="Orange_9_Click"/>
+            <Button x:Name="Red_10" Background="Gray"  Content=" Red " Foreground="Red" FontSize="36" Margin="2" Click="Red_10_Click"/>
+            <Button x:Name="Maroon_11" Background="Gray"  Content=" Maroon " Foreground="Maroon" FontSize="36" Margin="2" Click="Maroon_11_Click"/>
+            <Button x:Name="Fuchsia_12" Background="Gray"  Content=" Fuchsia " Foreground="Fuchsia" FontSize="36" Margin="2" Click="Fuchsia_12_Click"/>
+            <Button x:Name="Purple_13" Background="Gray"  Content=" Purple " Foreground="Purple" FontSize="36" Margin="2" Click="Purple_13_Click"/>
+            <Button x:Name="Black_14" Background="Gray"  Content=" Black " Foreground="Black" FontSize="36" Margin="2" Click="Black_14_Click"/>
+            <Button x:Name="Silver_15" Background="Gray"  Content=" Silver " Foreground="Silver" FontSize="36" Margin="2" Click="Silver_15_Click"/>
+            <Button x:Name="Grey_16" Background="#FFE8CC49"  Content=" Grey " Foreground="Gray" FontSize="36" Margin="2" Click="Grey_16_Click"/>
+            <Button x:Name="White_17" Background="Gray"  Content=" White " Foreground="White" FontSize="36" Margin="2" Click="White_17_Click"/>
+        </WrapPanel>
+    </Grid>
+</Window>

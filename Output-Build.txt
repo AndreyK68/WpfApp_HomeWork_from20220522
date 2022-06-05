@@ -1,0 +1,4 @@
+﻿Build started...
+1>------ Build started: Project: WpfApp_HomeWork_from20220522, Configuration: Debug Any CPU ------
+1>  WpfApp_HomeWork_from20220522 -> C:\Users\Андрей\source\repos\WpfApp_HomeWork_from20220522\WpfApp_HomeWork_from20220522\bin\Debug\WpfApp_HomeWork_from20220522.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
